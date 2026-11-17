@@ -1,0 +1,217 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo per registrare e consultare entrate, uscite e attività svolte durante le sessioni del laboratorio didattico Lumo.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Quadro delle presenze registrate e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Sessioni registrate",
+          "value": "12"
+        },
+        {
+          "label": "Presenze odierne",
+          "value": "8"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "7"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo A",
+          "12/05/2025",
+          "Nubi",
+          "09:05",
+          "11:20",
+          "Esperimenti con forme"
+        ],
+        [
+          "Lumo A",
+          "12/05/2025",
+          "Vela",
+          "09:10",
+          "11:25",
+          "Disegno collaborativo"
+        ],
+        [
+          "Lumo B",
+          "13/05/2025",
+          "Rugiada",
+          "14:00",
+          "15:30",
+          "Costruzioni modulari"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le registrazioni di entrata e uscita. La ricerca e i filtri sono separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "12"
+        },
+        {
+          "label": "Da completare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo A",
+          "12/05/2025",
+          "Nubi",
+          "09:05",
+          "11:20",
+          "Esperimenti con forme"
+        ],
+        [
+          "Lumo A",
+          "12/05/2025",
+          "Vela",
+          "09:10",
+          "11:25",
+          "Disegno collaborativo"
+        ],
+        [
+          "Lumo A",
+          "12/05/2025",
+          "Brina",
+          "09:00",
+          "11:15",
+          "Racconto illustrato"
+        ],
+        [
+          "Lumo B",
+          "13/05/2025",
+          "Rugiada",
+          "14:00",
+          "15:30",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo B",
+          "13/05/2025",
+          "Nubi",
+          "14:05",
+          "15:35",
+          "Osservazione dei materiali"
+        ],
+        [
+          "Lumo C",
+          "14/05/2025",
+          "Vela",
+          "10:00",
+          "12:00",
+          "Disegno collaborativo"
+        ],
+        [
+          "Lumo C",
+          "14/05/2025",
+          "Brina",
+          "10:10",
+          "12:05",
+          "Gioco di sequenze"
+        ],
+        [
+          "Lumo C",
+          "14/05/2025",
+          "Rugiada",
+          "10:00",
+          "12:10",
+          "Esperimenti con forme"
+        ],
+        [
+          "Lumo D",
+          "15/05/2025",
+          "Nubi",
+          "09:15",
+          "11:30",
+          "Costruzioni modulari"
+        ],
+        [
+          "Lumo D",
+          "15/05/2025",
+          "Vela",
+          "09:20",
+          "11:25",
+          "Racconto illustrato"
+        ],
+        [
+          "Lumo D",
+          "15/05/2025",
+          "Brina",
+          "09:00",
+          "—",
+          "Attività in corso"
+        ],
+        [
+          "Lumo E",
+          "16/05/2025",
+          "Rugiada",
+          "14:10",
+          "15:40",
+          "Gioco di sequenze"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "nuova-presenza",
+      "title": "Nuova presenza",
+      "description": "Registra una sessione, gli orari di entrata e uscita e l’attività svolta.",
+      "metrics": [],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [],
+      "form": [
+        "Sessione",
+        "Data",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    }
+  ]
+}
